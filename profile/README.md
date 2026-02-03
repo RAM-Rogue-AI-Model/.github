@@ -15,7 +15,9 @@ Le projet suit une architecture **Microservices** distribuée :
    * MariaDB a été choisi pour son stockage de données structuré avec un format fixe,
    * Redis a été utilisé pour sa rapidité en tant que cache pendant l’exécution de l’application.
 * **Network** : Tous les conteneurs communiquent via un réseau Docker privé `ram-shared-network`.
-
+* **Broker de messages** : RabbitMQ est utilisé pour la gestion des logs :
+  * Les microservices (sauf Front et Logger) agissent comme producers, en envoyant des messages dans une queue à chaque action effectuée.
+  * Le microservice Logger agit comme consumer, récupérant les messages pour les traiter et les stocker.
 
 <img width="1027" height="790" alt="image" src="https://github.com/user-attachments/assets/80aaf425-d08d-4bea-a07d-79946e54804d" />
 

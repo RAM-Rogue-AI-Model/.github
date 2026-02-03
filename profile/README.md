@@ -20,7 +20,7 @@ Le projet suit une architecture **Microservices** distribuée :
 
 Avant de commencer, assurez-vous d'avoir installé :
 
-1.  **Docker Desktop** (avec Docker Compose) - [Télécharger](https://www.docker.com/products/docker-desktop)
+1.  **Docker Desktop** (avec Docker Compose) - [Télécharger](https://www.docker.com)
     * *Assurez-vous que Docker est lancé.*
 2.  **Git** - [Télécharger](https://git-scm.com/downloads)
 3.  **Make**
@@ -31,12 +31,12 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 ## 🚀 Démarrage Rapide (Onboarding)
 
-Nous avons automatisé l'installation. Cette commande va cloner les 10 repositories, générer les secrets de sécurité, configurer le réseau et lancer les conteneurs. Ce processus prend plus ou moins 2 minutes d'après nos tests dans différentes configurations. 
+Nous avons automatisé l'installation. Cette commande va cloner les 11 repositories, générer les secrets de sécurité, configurer le réseau et lancer les conteneurs. Ce processus prend plus ou moins 2 minutes d'après nos tests dans différentes configurations. 
 
 Ouvrez votre terminal dans le dossier où vous voulez cloner l'ensemble des microservices et lancez :
 
 ```bash
-git clone [https://github.com/RAM-Rogue-AI-Model/ram-infra.git](https://github.com/RAM-Rogue-AI-Model/ram-infra.git)
+git clone https://github.com/RAM-Rogue-AI-Model/ram-infra.git
 cd ram-infra
 make init
 ```

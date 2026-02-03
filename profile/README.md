@@ -14,6 +14,9 @@ Le projet suit une architecture **Microservices** distribuée :
 * **Databases** : Chaque microservice possède sa propre base de données MariaDB, Battle est géré avec Redis.
 * **Network** : Tous les conteneurs communiquent via un réseau Docker privé `ram-shared-network`.
 
+
+<img width="1027" height="790" alt="image" src="https://github.com/user-attachments/assets/80aaf425-d08d-4bea-a07d-79946e54804d" />
+
 ---
 
 ## 🛠 Prérequis

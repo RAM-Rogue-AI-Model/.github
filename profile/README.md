@@ -12,6 +12,7 @@ Le projet suit une architecture **Microservices** distribuée :
 * **Gateway** : Point d'entrée unique qui redirige les requêtes.
 * **Microservices** : Services métiers isolés (User, Player, Game, etc.).
 * **Databases** : Chaque microservice possède sa propre base de données MariaDB, Battle est géré avec Redis.
+* MariaDB a été choisi pour son stockage de données structuré avec un format fixe, tandis que Redis a été utilisé pour sa rapidité en tant que cache pendant l’exécution de l’application.
 * **Network** : Tous les conteneurs communiquent via un réseau Docker privé `ram-shared-network`.
 
 

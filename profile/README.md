@@ -18,9 +18,7 @@ Le projet suit une architecture **Microservices** distribuée :
 * **Broker de messages** : RabbitMQ est utilisé pour la gestion des logs :
   * Les microservices (sauf Front et Logger) agissent comme producers, en envoyant des messages dans une queue à chaque action effectuée.
   * Le microservice Logger agit comme consumer, récupérant les messages pour les traiter et les stocker.
-
-<img width="1027" height="790" alt="image" src="https://github.com/user-attachments/assets/80aaf425-d08d-4bea-a07d-79946e54804d" />
-
+<img width="1013" height="782" alt="image" src="https://github.com/user-attachments/assets/8c24b048-f308-4caa-a23f-d9122b65bd30" />
 ---
 
 ## 🛠 Prérequis

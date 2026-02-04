@@ -61,18 +61,18 @@ make init
 
 | Service | Description | Localhost | Docs |
 | :--- | :--- | :--- | :--- |
-| **Front** | Interface utilisateur (React/Vite) | [http://localhost:3000](http://localhost:3000) | - |
-| **API Gateway** | Point d'entrée unique & Redirection | [http://localhost:3001](http://localhost:3001) | [http://localhost:3001/docs](http://localhost:3001/docs) |
-| **Battle** | Gestion des combats | [http://localhost:3002](http://localhost:3002) | [http://localhost:3002/docs](http://localhost:3002/docs) |
-| **Effect** | Gestion des effets et statuts | [http://localhost:3003](http://localhost:3003) | [http://localhost:3003/docs](http://localhost:3003/docs) |
-| **Enemy** | Gestion des ennemis | [http://localhost:3004](http://localhost:3004) | [http://localhost:3004/docs](http://localhost:3004/docs) |
-| **Game** | Logique globale du jeu | [http://localhost:3005](http://localhost:3005) | [http://localhost:3005/docs](http://localhost:3005/docs) |
-| **Item** | Gestion des objets et inventaire | [http://localhost:3006](http://localhost:3006) | [http://localhost:3006/docs](http://localhost:3006/docs) |
-| **Logger** | Service de logs (RabbitMQ Consumer) | [http://localhost:3007](http://localhost:3007) | - |
-| **Player** | Gestion des joueurs et stats | [http://localhost:3008](http://localhost:3008) | [http://localhost:3008/docs](http://localhost:3008/docs) |
-| **User** | Authentification et comptes utilisateurs | [http://localhost:3009](http://localhost:3009) | [http://localhost:3009/docs](http://localhost:3009/docs) |
-| **PhpMyAdmin** | Interface de gestion MariaDB | [http://localhost:8080](http://localhost:8080) | - |
-| **RabbitMQ** | Interface de gestion des queues | [http://localhost:15672](http://localhost:15672) | - |
+| **Front** | Interface utilisateur (React/Vite) | <a href="http://localhost:3000/ram" target="_blank">http://localhost:3000/ram</a> | - |
+| **API Gateway** | Point d'entrée unique & Redirection | <a href="http://localhost:3001" target="_blank">http://localhost:3001</a> | <a href="http://localhost:3001/docs" target="_blank">http://localhost:3001/docs</a> |
+| **Battle** | Gestion des combats | <a href="http://localhost:3002" target="_blank">http://localhost:3002</a> | <a href="http://localhost:3002/docs" target="_blank">http://localhost:3002/docs</a> |
+| **Effect** | Gestion des effets et statuts | <a href="http://localhost:3003" target="_blank">http://localhost:3003</a> | <a href="http://localhost:3003/docs" target="_blank">http://localhost:3003/docs</a> |
+| **Enemy** | Gestion des ennemis | <a href="http://localhost:3004" target="_blank">http://localhost:3004</a> | <a href="http://localhost:3004/docs" target="_blank">http://localhost:3004/docs</a> |
+| **Game** | Logique globale du jeu | <a href="http://localhost:3005" target="_blank">http://localhost:3005</a> | <a href="http://localhost:3005/docs" target="_blank">http://localhost:3005/docs</a> |
+| **Item** | Gestion des objets et inventaire | <a href="http://localhost:3006" target="_blank">http://localhost:3006</a> | <a href="http://localhost:3006/docs" target="_blank">http://localhost:3006/docs</a> |
+| **Logger** | Service de logs (RabbitMQ Consumer) | <a href="http://localhost:3007" target="_blank">http://localhost:3007</a> | - |
+| **Player** | Gestion des joueurs et stats | <a href="http://localhost:3008" target="_blank">http://localhost:3008</a> | <a href="http://localhost:3008/docs" target="_blank">http://localhost:3008/docs</a> |
+| **User** | Authentification et comptes utilisateurs | <a href="http://localhost:3009" target="_blank">http://localhost:3009</a> | <a href="http://localhost:3009/docs" target="_blank">http://localhost:3009/docs</a> |
+| **PhpMyAdmin** | Interface de gestion MariaDB | <a href="http://localhost:8080" target="_blank">http://localhost:8080</a> | - |
+| **RabbitMQ** | Interface de gestion des queues | <a href="http://localhost:15672" target="_blank">http://localhost:15672</a> | - |
 
 ---
 

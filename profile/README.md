@@ -21,6 +21,25 @@ Le projet suit une architecture **Microservices** distribuée :
 <img width="1013" height="782" alt="image" src="https://github.com/user-attachments/assets/8c24b048-f308-4caa-a23f-d9122b65bd30" />
 ---
 
+## 📊 Tableau récapitulatif des services
+
+| Service | Description | Localhost | Docs |
+| :--- | :--- | :--- | :--- |
+| **Front** | Interface utilisateur (React/Vite) | [http://localhost:3000](http://localhost:3000) | - |
+| **API Gateway** | Point d'entrée unique & Redirection | [http://localhost:3001](http://localhost:3001) | [http://localhost:3001/docs](http://localhost:3001/docs) |
+| **Battle** | Gestion des combats | [http://localhost:3002](http://localhost:3002) | [http://localhost:3002/docs](http://localhost:3002/docs) |
+| **Effect** | Gestion des effets et statuts | [http://localhost:3003](http://localhost:3003) | [http://localhost:3003/docs](http://localhost:3003/docs) |
+| **Enemy** | Gestion des ennemis | [http://localhost:3004](http://localhost:3004) | [http://localhost:3004/docs](http://localhost:3004/docs) |
+| **Game** | Logique globale du jeu | [http://localhost:3005](http://localhost:3005) | [http://localhost:3005/docs](http://localhost:3005/docs) |
+| **Item** | Gestion des objets et inventaire | [http://localhost:3006](http://localhost:3006) | [http://localhost:3006/docs](http://localhost:3006/docs) |
+| **Logger** | Service de logs (RabbitMQ Consumer) | [http://localhost:3007](http://localhost:3007) | - |
+| **Player** | Gestion des joueurs et stats | [http://localhost:3008](http://localhost:3008) | [http://localhost:3008/docs](http://localhost:3008/docs) |
+| **User** | Authentification et comptes utilisateurs | [http://localhost:3009](http://localhost:3009) | [http://localhost:3009/docs](http://localhost:3009/docs) |
+| **PhpMyAdmin** | Interface de gestion MariaDB | [http://localhost:8080](http://localhost:8080) | - |
+| **RabbitMQ** | Interface de gestion des queues | [http://localhost:15672](http://localhost:15672) | - |
+
+---
+
 ## 🛠 Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé :

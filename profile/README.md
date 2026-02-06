@@ -36,7 +36,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 ## 🚀 Démarrage Rapide (Onboarding)
 
-Nous avons automatisé l'installation. Cette commande va cloner les 11 repositories, générer les secrets de sécurité, configurer le réseau et lancer les conteneurs. Ce processus prend un peu de temps, plus ou moins 10 minutes d'après nos tests dans différentes configurations, parfait pour prendre un petit café ☕️.
+Nous avons automatisé l'installation. Cette commande va cloner les 11 repositories, générer les secrets de sécurité, configurer le réseau et lancer les conteneurs.Le processus est un peu long, nous avons cherché à optimiser les images Docker pour un démarrage rapide, mais faute de temps, nous avons pas pu le faire, on s'excuse pour la gêne occasionnée. D'après nos tests dans différentes configurations, cela peut prendre entre 5 et 15 minutes, parfait pour prendre un petit café ☕️.
 
 Ouvrez votre terminal dans le dossier où vous voulez cloner l'ensemble des microservices et lancez :
 
@@ -57,7 +57,6 @@ En cas de soucis, vous pouvez jouer la commande ci-dessous, elle arrêtera tous 
 ```bash
 make down up
 ```
-
 
 ---
 

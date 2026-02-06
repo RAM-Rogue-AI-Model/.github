@@ -36,7 +36,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 ## 🚀 Démarrage Rapide (Onboarding)
 
-Nous avons automatisé l'installation. Cette commande va cloner les 11 repositories, générer les secrets de sécurité, configurer le réseau et lancer les conteneurs. Ce processus prend plus ou moins 2 minutes d'après nos tests dans différentes configurations. 
+Nous avons automatisé l'installation. Cette commande va cloner les 11 repositories, générer les secrets de sécurité, configurer le réseau et lancer les conteneurs. Ce processus prend un peu de temps, plus ou moins 10 minutes d'après nos tests dans différentes configurations, parfait pour prendre un petit café ☕️.
 
 Ouvrez votre terminal dans le dossier où vous voulez cloner l'ensemble des microservices et lancez :
 
@@ -45,6 +45,19 @@ git clone https://github.com/RAM-Rogue-AI-Model/ram-infra.git
 cd ram-infra
 make init
 ```
+
+Une fois l'installation terminée, tout les services devraient être en marche et le front accessible en local via [http://localhost:3000/ram](http://localhost:3000/ram), vous pouvez vérifier le bon état des services en tapant:
+
+```bash
+docker ps -a
+```
+
+En cas de soucis, vous pouvez jouer la commande ci-dessous, elle arrêtera tous les conteneurs et les relancera.
+
+```bash
+make down up
+```
+
 
 ---
 

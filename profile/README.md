@@ -92,6 +92,7 @@ make down up
 
 Pour garantir un projet robuste et maintenable, nous avons intégré plusieurs outils et pratiques :
 
+*   **Interface soignée** : Un design moderne pour une expérience utilisateur agréable.
 *   **ESLint** : Standardisation du style de code et détection d'erreurs potentielles dès le développement.
 *   **SonarQube** : Analyse statique continue pour surveiller la qualité du code, la couverture de tests et la dette technique.
 *   **Sécurité** : 

@@ -88,3 +88,14 @@ make down up
 
 ---
 
+## ✨ Bonus & Qualité du Code
+
+Pour garantir un projet robuste et maintenable, nous avons intégré plusieurs outils et pratiques :
+
+*   **ESLint** : Standardisation du style de code et détection d'erreurs potentielles dès le développement.
+*   **SonarQube** : Analyse statique continue pour surveiller la qualité du code, la couverture de tests et la dette technique.
+*   **Sécurité** : 
+    *   Authentification sécurisée via **JWT** (JSON Web Tokens).
+    *   Hachage des mots de passe.
+    *   Validation stricte des données d'entrée pour prévenir les injections.
+    *   Utilisation de variables d'environnement pour les données sensibles.
